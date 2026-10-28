@@ -1,0 +1,19 @@
+# Local credentials and environment files
+.env
+.env.local
+*.key
+*.token
+
+# Gateway runtime data & logs
+gateway-data/
+freellmapi-config/
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Desktop backups
+*.bak
