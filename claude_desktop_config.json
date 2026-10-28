@@ -1,0 +1,16 @@
+{
+  "mcpServers": {},
+  "inference": {
+    "provider": "gateway",
+    "gatewayBaseUrl": "http://localhost:20128",
+    "credentialKind": "staticApiKey",
+    "gatewayAuthScheme": "Bearer",
+    "gatewayApiKey": "sk-omniroute-local-token-9b"
+  },
+  "organization": {
+    "id": "ab582751-b90d-48cf-81a6-620979f5541a"
+  },
+  "telemetry": {
+    "enabled": false
+  }
+}
