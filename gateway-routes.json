@@ -1,0 +1,27 @@
+{
+  "name": "Claude-to-Free-Providers-Mapping",
+  "version": "1.0",
+  "mappings": [
+    {
+      "incomingModel": "claude-3-5-sonnet-20241022",
+      "targetProvider": "groq",
+      "targetModel": "llama-3.3-70b-versatile",
+      "transformPrompt": true,
+      "maxOutputTokens": 8192
+    },
+    {
+      "incomingModel": "claude-3-5-haiku-20241022",
+      "targetProvider": "groq",
+      "targetModel": "llama-3.3-70b-versatile",
+      "transformPrompt": true,
+      "maxOutputTokens": 8192
+    },
+    {
+      "incomingModel": "claude-3-opus-20240229",
+      "targetProvider": "gemini",
+      "targetModel": "gemini-1.5-pro",
+      "transformPrompt": true,
+      "maxOutputTokens": 8192
+    }
+  ]
+}
